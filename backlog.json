@@ -1,0 +1,24 @@
+[
+  {"category": "Runtimes & Loaders", "name": "LMDeploy", "url": "https://github.com/InternLM/lmdeploy", "desc": "TurboMind-accelerated serving with persistent batching; strong tokens/sec on mid-range NVIDIA cards."},
+  {"category": "Runtimes & Loaders", "name": "SGLang", "url": "https://github.com/sgl-project/sglang", "desc": "Fast serving framework with RadixAttention; a vLLM alternative that often wins on throughput benchmarks."},
+  {"category": "Runtimes & Loaders", "name": "TensorRT-LLM", "url": "https://github.com/NVIDIA/TensorRT-LLM", "desc": "NVIDIA's max-performance runtime — the ceiling for tokens/sec on GeForce/RTX, at the cost of setup complexity."},
+  {"category": "Runtimes & Loaders", "name": "llamafile", "url": "https://github.com/Mozilla-Ocho/llamafile", "desc": "Mozilla's single-file executable: one binary bundles a model + llama.cpp + a web UI. Runs anywhere with zero install."},
+  {"category": "Runtimes & Loaders", "name": "LocalAI", "url": "https://github.com/mudler/LocalAI", "desc": "OpenAI-compatible local API that fronts many backends (llama.cpp, whisper, diffusers). Drop-in replacement for OpenAI endpoints."},
+  {"category": "Runtimes & Loaders", "name": "OnnxStream", "url": "https://github.com/vitoplantamura/OnnxStream", "desc": "Runs Stable Diffusion XL on a Raspberry Pi Zero 2 by streaming weights — the extreme edge of local inference."},
+
+  {"category": "Models (open-weight)", "name": "RWKV", "url": "https://github.com/BlinkDL/RWKV-LM", "desc": "Linear-attention (RNN-style) models — constant memory regardless of context length, friendly to CPU and low VRAM."},
+  {"category": "Models (open-weight)", "name": "Falcon", "url": "https://huggingface.co/tiiuae", "desc": "TII's open models, Apache-2.0, once a top open leaderboard performer; still solid for fine-tuning experiments."},
+
+  {"category": "Frontends & UIs", "name": "Faraday", "url": "https://faraday.dev", "desc": "Desktop local-AI app with a focus on offline-first chat and roleplay; batteries included, no terminal needed."},
+  {"category": "Frontends & UIs", "name": "kotaemon", "url": "https://github.com/Cinnamon/kotaemon", "desc": "Open-source RAG UI — chat with your documents over a local model with a clean Gradio interface."},
+  {"category": "Frontends & UIs", "name": "Backyard AI", "url": "https://backyard.ai", "desc": "Character/RP-focused local AI app with a desktop client and mobile companion."},
+
+  {"category": "Quantization & Optimization", "name": "llm-compressor", "url": "https://github.com/vllm-project/llm-compressor", "desc": "Neural Magic's library for pruning + quantization; pairs with vLLM to shrink and accelerate serving models."},
+  {"category": "Quantization & Optimization", "name": "GGUF quant guide", "url": "https://github.com/ggml-org/llama.cpp/discussions/2094", "desc": "The canonical explanation of K-quants and how to pick Q4_K_M vs Q8_0 for your hardware."},
+
+  {"category": "Benchmarks & Evaluation", "name": "LLMPerf", "url": "https://github.com/ray-project/llmperf", "desc": "Ray's toolkit for benchmarking LLM API and serving throughput/latency — useful for self-hosted stacks too."},
+  {"category": "Benchmarks & Evaluation", "name": "Artificial Analysis", "url": "https://artificialanalysis.ai", "desc": "Independent model-vs-model speed/price/quality charts; mostly API but a useful reference for local baselines."},
+
+  {"category": "Hardware & VRAM Planning", "name": "LocalLLaMA build guides", "url": "https://www.reddit.com/r/LocalLLaMA/wiki/index/", "desc": "Community wiki covering the GPU tiers, RAM bandwidth math, and common build mistakes."},
+  {"category": "Hardware & VRAM Planning", "name": "Craft Computing GPU tier list", "url": "https://www.craftcomputing.com", "desc": "Practical, current guidance on which GPUs are worth buying for local AI as of this generation."}
+]
