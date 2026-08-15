@@ -31,6 +31,10 @@ Engines that actually load weights and run inference on your box.
 - [MLX](https://github.com/ml-explore/mlx) — Apple Silicon-first framework. If your local AI runs on a Mac, this is the native path.
 - [Candle](https://github.com/huggingface/candle) — Minimalist Rust ML framework from Hugging Face. For embedding inference into other apps.
 
+- [LMDeploy](https://github.com/InternLM/lmdeploy) — TurboMind-accelerated serving with persistent batching; strong tokens/sec on mid-range NVIDIA cards.
+- [SGLang](https://github.com/sgl-project/sglang) — Fast serving framework with RadixAttention; a vLLM alternative that often wins on throughput benchmarks.
+- [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM) — NVIDIA's max-performance runtime — the ceiling for tokens/sec on GeForce/RTX, at the cost of setup complexity.
+
 ## Models (open-weight)
 
 Downloadable weights with permissive-to-open licenses. Pick by your VRAM budget.
