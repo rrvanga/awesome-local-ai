@@ -35,6 +35,10 @@ Engines that actually load weights and run inference on your box.
 - [SGLang](https://github.com/sgl-project/sglang) — Fast serving framework with RadixAttention; a vLLM alternative that often wins on throughput benchmarks.
 - [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM) — NVIDIA's max-performance runtime — the ceiling for tokens/sec on GeForce/RTX, at the cost of setup complexity.
 
+- [llamafile](https://github.com/Mozilla-Ocho/llamafile) — Mozilla's single-file executable: one binary bundles a model + llama.cpp + a web UI. Runs anywhere with zero install.
+- [LocalAI](https://github.com/mudler/LocalAI) — OpenAI-compatible local API that fronts many backends (llama.cpp, whisper, diffusers). Drop-in replacement for OpenAI endpoints.
+- [OnnxStream](https://github.com/vitoplantamura/OnnxStream) — Runs Stable Diffusion XL on a Raspberry Pi Zero 2 by streaming weights — the extreme edge of local inference.
+
 ## Models (open-weight)
 
 Downloadable weights with permissive-to-open licenses. Pick by your VRAM budget.

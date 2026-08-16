@@ -1,23 +1,5 @@
 [
   {
-    "category": "Runtimes & Loaders",
-    "name": "llamafile",
-    "url": "https://github.com/Mozilla-Ocho/llamafile",
-    "desc": "Mozilla's single-file executable: one binary bundles a model + llama.cpp + a web UI. Runs anywhere with zero install."
-  },
-  {
-    "category": "Runtimes & Loaders",
-    "name": "LocalAI",
-    "url": "https://github.com/mudler/LocalAI",
-    "desc": "OpenAI-compatible local API that fronts many backends (llama.cpp, whisper, diffusers). Drop-in replacement for OpenAI endpoints."
-  },
-  {
-    "category": "Runtimes & Loaders",
-    "name": "OnnxStream",
-    "url": "https://github.com/vitoplantamura/OnnxStream",
-    "desc": "Runs Stable Diffusion XL on a Raspberry Pi Zero 2 by streaming weights \u2014 the extreme edge of local inference."
-  },
-  {
     "category": "Models (open-weight)",
     "name": "RWKV",
     "url": "https://github.com/BlinkDL/RWKV-LM",
