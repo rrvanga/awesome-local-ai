@@ -1,23 +1,5 @@
 [
   {
-    "category": "Models (open-weight)",
-    "name": "RWKV",
-    "url": "https://github.com/BlinkDL/RWKV-LM",
-    "desc": "Linear-attention (RNN-style) models \u2014 constant memory regardless of context length, friendly to CPU and low VRAM."
-  },
-  {
-    "category": "Models (open-weight)",
-    "name": "Falcon",
-    "url": "https://huggingface.co/tiiuae",
-    "desc": "TII's open models, Apache-2.0, once a top open leaderboard performer; still solid for fine-tuning experiments."
-  },
-  {
-    "category": "Frontends & UIs",
-    "name": "Faraday",
-    "url": "https://faraday.dev",
-    "desc": "Desktop local-AI app with a focus on offline-first chat and roleplay; batteries included, no terminal needed."
-  },
-  {
     "category": "Frontends & UIs",
     "name": "kotaemon",
     "url": "https://github.com/Cinnamon/kotaemon",

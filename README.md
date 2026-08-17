@@ -54,6 +54,9 @@ Downloadable weights with permissive-to-open licenses. Pick by your VRAM budget.
 - [Granite](https://github.com/ibm-granite) — IBM's open enterprise models with an Apache-2.0 license.
 - [Command R](https://huggingface.co/CohereForAI) — Cohere's open RAG-optimized models.
 
+- [RWKV](https://github.com/BlinkDL/RWKV-LM) — Linear-attention (RNN-style) models — constant memory regardless of context length, friendly to CPU and low VRAM.
+- [Falcon](https://huggingface.co/tiiuae) — TII's open models, Apache-2.0, once a top open leaderboard performer; still solid for fine-tuning experiments.
+
 ## Frontends & UIs
 
 Chat interfaces that talk to the runtimes above.
@@ -65,6 +68,8 @@ Chat interfaces that talk to the runtimes above.
 - [GPT4All](https://github.com/nomic-ai/gpt4all) — Desktop client optimized for CPU-only machines. Runs on ordinary laptops.
 - [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm) — Desktop + Docker "AI business" app: chat with your docs over a local model.
 - [Msty](https://msty.app) — Local AI desktop app with side-by-side model comparisons and prompt library.
+
+- [Faraday](https://faraday.dev) — Desktop local-AI app with a focus on offline-first chat and roleplay; batteries included, no terminal needed.
 
 ## Quantization & Optimization
 
