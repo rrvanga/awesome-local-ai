@@ -1,23 +1,5 @@
 [
   {
-    "category": "Frontends & UIs",
-    "name": "kotaemon",
-    "url": "https://github.com/Cinnamon/kotaemon",
-    "desc": "Open-source RAG UI \u2014 chat with your documents over a local model with a clean Gradio interface."
-  },
-  {
-    "category": "Frontends & UIs",
-    "name": "Backyard AI",
-    "url": "https://backyard.ai",
-    "desc": "Character/RP-focused local AI app with a desktop client and mobile companion."
-  },
-  {
-    "category": "Quantization & Optimization",
-    "name": "llm-compressor",
-    "url": "https://github.com/vllm-project/llm-compressor",
-    "desc": "Neural Magic's library for pruning + quantization; pairs with vLLM to shrink and accelerate serving models."
-  },
-  {
     "category": "Quantization & Optimization",
     "name": "GGUF quant guide",
     "url": "https://github.com/ggml-org/llama.cpp/discussions/2094",

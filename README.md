@@ -71,6 +71,9 @@ Chat interfaces that talk to the runtimes above.
 
 - [Faraday](https://faraday.dev) — Desktop local-AI app with a focus on offline-first chat and roleplay; batteries included, no terminal needed.
 
+- [kotaemon](https://github.com/Cinnamon/kotaemon) — Open-source RAG UI — chat with your documents over a local model with a clean Gradio interface.
+- [Backyard AI](https://backyard.ai) — Character/RP-focused local AI app with a desktop client and mobile companion.
+
 ## Quantization & Optimization
 
 Shrinking models to fit your VRAM/RAM — the difference between "can't run" and "runs great".
@@ -81,6 +84,8 @@ Shrinking models to fit your VRAM/RAM — the difference between "can't run" and
 - [AWQ](https://github.com/mit-han-lab/llm-awq) — Activation-aware quantization that preserves quality better at low bits.
 - [bitsandbytes](https://github.com/bitsandbytes-foundation/bitsandbytes) — 8-bit/4-bit quantization lib (the QLoRA backbone), now multi-backend.
 - [TheBloke](https://huggingface.co/TheBloke) — The canonical source of pre-quantized GGUF/GPTQ uploads for thousands of models.
+
+- [llm-compressor](https://github.com/vllm-project/llm-compressor) — Neural Magic's library for pruning + quantization; pairs with vLLM to shrink and accelerate serving models.
 
 ## Benchmarks & Evaluation
 
