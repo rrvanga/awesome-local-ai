@@ -1,23 +1,5 @@
 [
   {
-    "category": "Quantization & Optimization",
-    "name": "GGUF quant guide",
-    "url": "https://github.com/ggml-org/llama.cpp/discussions/2094",
-    "desc": "The canonical explanation of K-quants and how to pick Q4_K_M vs Q8_0 for your hardware."
-  },
-  {
-    "category": "Benchmarks & Evaluation",
-    "name": "LLMPerf",
-    "url": "https://github.com/ray-project/llmperf",
-    "desc": "Ray's toolkit for benchmarking LLM API and serving throughput/latency \u2014 useful for self-hosted stacks too."
-  },
-  {
-    "category": "Benchmarks & Evaluation",
-    "name": "Artificial Analysis",
-    "url": "https://artificialanalysis.ai",
-    "desc": "Independent model-vs-model speed/price/quality charts; mostly API but a useful reference for local baselines."
-  },
-  {
     "category": "Hardware & VRAM Planning",
     "name": "LocalLLaMA build guides",
     "url": "https://www.reddit.com/r/LocalLLaMA/wiki/index/",

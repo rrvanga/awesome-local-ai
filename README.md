@@ -87,6 +87,8 @@ Shrinking models to fit your VRAM/RAM — the difference between "can't run" and
 
 - [llm-compressor](https://github.com/vllm-project/llm-compressor) — Neural Magic's library for pruning + quantization; pairs with vLLM to shrink and accelerate serving models.
 
+- [GGUF quant guide](https://github.com/ggml-org/llama.cpp/discussions/2094) — The canonical explanation of K-quants and how to pick Q4_K_M vs Q8_0 for your hardware.
+
 ## Benchmarks & Evaluation
 
 Measuring what actually fits and how fast it runs.
@@ -97,6 +99,9 @@ Measuring what actually fits and how fast it runs.
 - [MLPerf Inference](https://mlcommons.org/benchmarks/inference-datacenter/) — The industry-standard inference benchmark suite.
 - [Open LLM Leaderboard](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard) — HF's quality leaderboard, with a helper to check which models fit your GPU.
 - [LMArena](https://lmarena.ai) — Crowdsourced model-vs-model arena (mostly API models, useful as a quality reference).
+
+- [LLMPerf](https://github.com/ray-project/llmperf) — Ray's toolkit for benchmarking LLM API and serving throughput/latency — useful for self-hosted stacks too.
+- [Artificial Analysis](https://artificialanalysis.ai) — Independent model-vs-model speed/price/quality charts; mostly API but a useful reference for local baselines.
 
 ## Hardware & VRAM Planning
 
