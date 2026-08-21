@@ -114,6 +114,9 @@ Choosing hardware and sizing models before you spend money.
 
 ---
 
+- [LocalLLaMA build guides](https://www.reddit.com/r/LocalLLaMA/wiki/index/) — Community wiki covering the GPU tiers, RAM bandwidth math, and common build mistakes.
+- [Craft Computing GPU tier list](https://www.craftcomputing.com) — Practical, current guidance on which GPUs are worth buying for local AI as of this generation.
+
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md). One entry per PR is fine — quality over quantity. New entries are also dripped daily from the maintainer's backlog.
