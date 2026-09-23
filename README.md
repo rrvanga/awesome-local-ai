@@ -48,7 +48,7 @@ Downloadable weights with permissive-to-open licenses. Pick by your VRAM budget.
 - [DeepSeek-R1](https://github.com/deepseek-ai/DeepSeek-R1) — Open-weight reasoning model with full chain-of-thought. Distills run on consumer GPUs.
 - [Mistral](https://mistral.ai) — Efficient European models (Mistral/Mixtral/Ministral). Strong quality-per-parameter.
 - [Gemma](https://ai.google.dev/gemma) — Google's open models. Gemma 3 has vision; small sizes run on a phone.
-- [Phi](https://github.com/microsoft/phi-4) — Microsoft's compact models. Phi-4-mini is genuinely useful on 8GB VRAM.
+- [Phi](https://huggingface.co/microsoft/phi-4) — Microsoft's compact models. Phi-4-mini is genuinely useful on 8GB VRAM.
 - [SmolLM](https://github.com/huggingface/smollm) — Tiny (135M–3B) models for edge devices and fast CPU inference.
 - [OLMo](https://github.com/allenai/OLMo) — Fully open (weights + data + training code) from AI2. Great for researchers.
 - [Granite](https://github.com/ibm-granite) — IBM's open enterprise models with an Apache-2.0 license.
