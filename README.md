@@ -53,7 +53,7 @@ Downloadable weights with permissive-to-open licenses. Pick by your VRAM budget.
 - [OLMo](https://github.com/allenai/OLMo) — Fully open (weights + data + training code) from AI2. Great for researchers.
 - [Granite](https://github.com/ibm-granite) — IBM's open enterprise models with an Apache-2.0 license.
 - [Command R](https://huggingface.co/CohereForAI) — Cohere's open RAG-optimized models.
-- [Nemotron 3](https://huggingface.co/nvidia) — NVIDIA's open-weight family; 3.5 Lightning is notably local-friendly: hybrid Mamba-2 + Transformer MoE (30B total / ~3B active), 1M-token context, MTP layer for fast speculative decoding — runs through llama.cpp, Ollama, and vLLM.
+- [Nemotron 3](https://huggingface.co/nvidia) — NVIDIA's open-weight family; 3.5 Lightning is notably local-friendly: hybrid Mamba-2 + Transformer MoE (30B total / ~3B active), 1M-token context, MTP layer for fast speculative decoding — runs through llama.cpp, Ollama, and vLLM. Official [NVFP4 build](https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4) (~4-bit FP, ≈15–16GB for the weights) is the most-downloaded variant (~2× the BF16 build) and fits a 16GB GPU with ~3B active params for quick generation; BF16 needs ~64GB.
 - [Kimi K2](https://github.com/MoonshotAI/Kimi-K2) — Moonshot's open agentic MoE (1T total / 32B active, Modified MIT, 128K context). Huge quality-to-active-param ratio for tool-use/agent workloads; KTransformers gets it running on high-RAM consumer rigs.
 - [MiniCPM](https://github.com/OpenBMB/MiniCPM) — OpenBMB's on-device dense models. MiniCPM5-2B (2026-09) is SOTA in the 2B class with GGUF/MLX builds — runs on phones, laptops, and edge chips.
 
