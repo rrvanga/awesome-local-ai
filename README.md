@@ -2,7 +2,7 @@
 
 A curated list of tools, models, and guides for running AI **on your own hardware** — no cloud required.
 
-Local AI is exploding (Ollama 178k⭐, Open WebUI 148k⭐) but the information is scattered across Reddit threads, vendor blogs, and buried GitHub issues. This list organizes the genuinely useful stuff by category.
+Local AI is exploding (Ollama 182k⭐, Open WebUI 153k⭐) but the information is scattered across Reddit threads, vendor blogs, and buried GitHub issues. This list organizes the genuinely useful stuff by category.
 
 ## Contents
 
