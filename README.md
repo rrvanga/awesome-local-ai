@@ -58,6 +58,8 @@ Downloadable weights with permissive-to-open licenses. Pick by your VRAM budget.
 - [MiniCPM](https://github.com/OpenBMB/MiniCPM) — OpenBMB's on-device dense models. MiniCPM5-2B (2026-09) is SOTA in the 2B class with GGUF/MLX builds — runs on phones, laptops, and edge chips.
 - [Bonsai 2 27B](https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf) — prism-ml's true-ternary GGUF of Qwen3.8-27B (hybrid attention, 262K ctx): weights are {−1,0,+1} at 1.72 bits → ~5.9 GB (PTQ1_0) or 7.2 GB (PQ2_0), down from ~54 GB FP16. Full 27B reasoning in a 16GB-VRAM envelope with huge KV headroom. Measured ~81–91 tok/s on an RTX 4090 (PTQ1_0) or ~130 tok/s on an RTX 5090 (PQ2_0) via llama-bench — pick PTQ1_0 on Ada-class cards (4090/6000 Ada/L4), PQ2_0 on Ampere/Hopper/Blackwell. Caveats: requires PrismML's llama.cpp fork (CUDA + Metal; stock llama.cpp still rejects both packings — verified 2026-10-09), the 98.2%-of-FP16 quality claim is vendor-reported, and [Bonsai-demo](https://github.com/PrismML-Eng/Bonsai-demo) is the source of truth for pinned, runnable configs. MLX build available for Apple Silicon.
 
+- [Ornith-1.5 35B-A3B](https://huggingface.co/ornith-ai/Ornith-1.5-35B-A3B-GGUF) — ornith-ai's mid-size MoE from the self-improving Ornith-1.5 family (Qwen3.5/Gemma4 lineage): 35B total / ~3B active, so fast decode on mid-range cards. Vendor benches show it beating Qwen3.6-35B-A3B and dense 30B-class peers on agentic coding — SWE-bench Verified 79 vs 73.4, Terminal-Bench 2.1 67.8 vs 52.5, GPQA Diamond 89.2 (all vendor-reported). 2.46M GGUF downloads. Solid 35B-A3B pick alongside Qwen3.8-27B for the 16GB class.
+
 - [RWKV](https://github.com/BlinkDL/RWKV-LM) — Linear-attention (RNN-style) models — constant memory regardless of context length, friendly to CPU and low VRAM.
 - [Falcon](https://huggingface.co/tiiuae) — TII's open models, Apache-2.0, once a top open leaderboard performer; still solid for fine-tuning experiments.
 
@@ -89,6 +91,8 @@ Shrinking models to fit your VRAM/RAM — the difference between "can't run" and
 - [TheBloke](https://huggingface.co/TheBloke) — The canonical source of pre-quantized GGUF/GPTQ uploads for thousands of models.
 
 - [llm-compressor](https://github.com/vllm-project/llm-compressor) — Neural Magic's library for pruning + quantization; pairs with vLLM to shrink and accelerate serving models.
+
+- [GSQ + RCO non-uniform GGUF](https://huggingface.co/ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF) — DASLab (IST Austria) gradient-searched per-tensor quantization: GSQ (Gumbel-Softmax) quantizes each tensor, RCO (Riemannian constrained optimization) assigns bit-widths under a strict size budget. Output is standard GGUF that runs **unmodified in stock llama.cpp / Ollama / LM Studio** — no fork needed. Qwen3.8-27B at IQ3_XXS ≈ 10.1 GB is the task-lossless point (matches BF16 on AIME25, within ~1 pt on GPQA-Diamond and LiveCodeBench v6, at ⅕ the BF16 size). The stock-runtime counterpart to Bonsai 2's fork-only ternary at similar sizes.
 
 - [GGUF quant guide](https://github.com/ggml-org/llama.cpp/discussions/2094) — The canonical explanation of K-quants and how to pick Q4_K_M vs Q8_0 for your hardware.
 
